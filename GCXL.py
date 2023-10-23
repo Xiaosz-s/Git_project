@@ -1,3 +1,8 @@
+#整个视觉代码仅用来识别圆和物料颜色
+#注意：未识别色环对应颜色，色环颜色是固定的，由于视觉总会受光照影响所以仅可能将视觉承受压力缩小
+
+
+
 import cv2
 import numpy as np
 from sklearn.cluster import KMeans
